@@ -1,7 +1,8 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif; /* Substitua por sua fonte preferida */
-    background-color: rgb(244, 160, 5);
+    background-color: orange;
+}
 
 .container {
     display: flex;
