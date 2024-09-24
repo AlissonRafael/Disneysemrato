@@ -1,6 +1,6 @@
 header {
     background-color: #f2f2f2;
-    padding: 200px;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -13,20 +13,20 @@ header {
   nav a {
     text-decoration: none;
     color: #333;
-    padding: 100px;
+    padding: 10px;
   }
   
   .logo img {
-    width: 1500px;
+    width: 150px;
   }
   
   .search input {
-    padding: 100px;
-    border: 10px solid #ccc;
+    padding: 10px;
+    border: 1px solid #ccc;
   }
   
   .search button {
-    padding: 100px;
+    padding: 10px;
     background-color: #4CAF50;
     color: white;
     border: none;
