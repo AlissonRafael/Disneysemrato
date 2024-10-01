@@ -1,24 +1,27 @@
-:root {
-  --cor-fundo: #01080E;
-  --cor-principal: #0B0D20 ;
-  --cor-secundaria: #212333;
-  --cor-destaque: #2BDEFD;
-  --cor-texto: #D7F9FF;
-}
 body {
-  background-color: var(--cor-fundo);
-  color: var(--cor-texto);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}
-.caixa-principal{
-  background-color: var(--cor-principal);
-  width: 90%;
-  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 0;
   padding: 20px;
 }
-h1{
-  color: var(--cor-destaque);
- }
+
+header {
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+main img {
+  max-width: 100%;
+}
+
+footer {
+  text-align: center;
+}
