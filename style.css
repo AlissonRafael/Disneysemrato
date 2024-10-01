@@ -1,33 +1,24 @@
-header {
-    background-color: #FFA500; /* Laranja */
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  nav {
-    display: flex;
-  }
-  
-  nav a {
-    text-decoration: none;
-    color: #d45d5d;
-    padding: 10px;
-  }
-  
-  .logo img {
-    width: 150px;
-  }
-  
-  .search input {
-    padding: 10px;
-    border: 1px solid #1e1313;
-  }
-  
-  .search button {
-    padding: 10px;
-    background-color: #4CAF50;
-    color: rgb(122, 16, 16);
-    border: none;
-  }
+:root {
+  --cor-fundo: #01080E;
+  --cor-principal: #0B0D20 ;
+  --cor-secundaria: #212333;
+  --cor-destaque: #2BDEFD;
+  --cor-texto: #D7F9FF;
+}
+body {
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.caixa-principal{
+  background-color: var(--cor-principal);
+  width: 90%;
+  text-align: center;
+  padding: 20px;
+}
+h1{
+  color: var(--cor-destaque);
+ }
